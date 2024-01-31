@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birth Chart Tool Widget</title>
+  <style>
+    /* Add custom styles for the widget */
+    .widget-container {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .widget-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .widget-button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="widget-container">
+    <h2 class="widget-title">Get Your Birth Chart</h2>
+    <p>Explore your natal chart, planets, aspects, and chart patterns</p>
+    <button class="widget-button" onclick="openBirthChartTool()">View Birth Chart</button>
+  </div>
+
+  <script>
+    function openBirthChartTool() {
+      // Add the code to open the birth chart tool or link to the tool's website
+      // For example, you can open a new window with the birth chart tool website:
+      window.open('https://your-birth-chart-tool-website.com', '_blank');
+    }
+  </script>
+</body>
+</html>
